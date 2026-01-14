@@ -38,10 +38,10 @@ jobs:
         with:
           name: build-output
           path: |
-            cjs
-            esm
-            umd
-            types
+            dist/cjs
+            dist/esm
+            dist/umd
+            dist/types
 
   # publish-package:
   #   needs: build-test
